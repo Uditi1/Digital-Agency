@@ -1,0 +1,662 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+          /* Intro Section */
+
+          
+#back{
+    background-color: #361999;
+    width: 100%;
+    height: 102vh;
+    position: relative;
+    display: flex;
+}
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    width: 100%;
+    height: 86vh;
+}
+.hero_head{
+    display: flex;
+    width: 100%;
+}
+.hero_head h2{
+    display: flex;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #f8f7ff;
+    align-self: center;
+    letter-spacing: 2px;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    position: absolute;
+    z-index: 1;
+}
+nav{
+    width: 100%;
+    display: flex;
+}
+#logo{
+    display: flex;
+    flex: 1;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #f8f7ff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    align-items: center;
+}
+#logo:hover{
+    color: #ff6495;
+}
+.navigation{
+    display: flex;
+    flex: 3;
+    justify-content: flex-end;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.navigation li{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navigation li a{
+    color: #f8f7ff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin: 0;
+    cursor: pointer;
+}
+.navigation li a:hover{
+    color: #ff6495;
+}
+.button{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 58px;
+}
+.button button{
+    background: none;
+    border: 2px solid #78fff1;
+    border-radius: 3px;
+    padding: 0;
+    color: #78fff1;
+    cursor: pointer;
+}
+.button a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #f8f7ff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 16px 50px;
+    letter-spacing: 1.5px;
+}
+.button button:hover{
+    background-color: #ff6495;
+    color: #f8f7ff;
+}
+
+
+         /* About Us Section */
+
+
+#brief{
+    padding-top: 60px;
+    background: #f8f7ff;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.brief{
+    flex-basis: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.brief h3{
+    color: #361999;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 1.5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.brief h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #361999;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.brief_2{
+    flex-basis: 35%;
+}
+.brief_2 h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ff6495;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.brief_2 a{
+    text-decoration: none;
+    color: #ff6495;
+    margin: 0 10px;
+    margin-left: 0;
+}
+.brief_2 a:hover{
+    color: #361999;
+}
+.brjtext h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #361999;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+    font-weight: 100;
+}
+
+
+              /* What We Offer Section */
+
+
+#get{
+    background: #f8f7ff;
+    height: 150px;
+}
+.head{
+    justify-content: center;
+    display: flex;
+}
+.head h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 68px;
+    letter-spacing: 1.5px;
+    color: #361999;
+}
+.type{
+    display: flex;
+    background: #f8f7ff;
+    width: 100%;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.type_000{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.type_111{
+    width: 100%;
+    display: flex;
+}
+.type_00{
+    display: flex;
+    flex-basis: 35%;
+    flex-grow: 1;
+}
+.type_11{
+    flex-basis: 35%;
+    flex-grow: 1;
+}
+.type_22{
+    flex-basis: 35%;
+    flex-grow: 1;
+}
+.type_33{
+    flex-basis: 35%;
+    flex-grow: 1;
+}
+.type_1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.type_1 h1{
+    flex-basis: 20%;
+    font-size: 100px;
+    text-align: center;
+    align-self: center;
+    color: #361999;
+}
+.type_1 h3{
+    flex-basis: 35%;
+    font-size: 40px;
+    text-align: center;
+    color: #361999; 
+    align-self: center;   
+}
+.type_2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.type_2 h1{
+    flex-basis: 20%;
+    font-size: 100px;
+    text-align: center;
+    align-self: center;
+    color: #361999;
+}
+.type_2 h3{
+    flex-basis: 35%;
+    font-size: 40px;
+    text-align: center;
+    color: #361999;
+    align-self: center;
+}
+.type_3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.type_3 h1{
+    flex-basis: 20%;
+    font-size: 100px;
+    text-align: center;
+    align-self: center;
+    color: #361999;
+}
+.type_3 h3{
+    flex-basis: 35%;
+    font-size: 40px;
+    text-align: center;
+    color: #361999;
+    align-self: center;
+}
+.type_4{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.type_4 h1{
+    flex-basis: 20%;
+    font-size: 100px;
+    text-align: center;
+    align-self: center;
+    color: #361999;
+}
+.type_4 h3{
+    flex-basis: 35%;
+    font-size: 40px;
+    text-align: center;
+    align-self: center;
+    color: #361999;
+}
+
+
+            /* Our Patener Section */
+
+
+#store{
+    background-color: #f8f7ff;
+}
+.shead{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shead h1{
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    line-height: 48px;
+    font-size: 100px;
+    letter-spacing: 1.5px;
+    color: #361999;
+    padding-top: 150px;
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.shead h4{
+    text-align: center;
+    flex-basis: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #ff6495;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.sheadim{
+    margin-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+.sheadim img{
+    height: 220px;
+}
+
+
+     /* Contact Section */
+
+
+#contact{
+    background: #361999;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.blcon_1{
+    padding-left: 150px;
+}
+.blcon_1 h1{
+    margin-top: 0px;
+    flex-basis: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #f8f7ff;
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+.blcon_1 h1 span{
+    color: #ff6495;
+}
+.blcon_1 h3{
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-top: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: #78fff1;
+    font-weight: 500;
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+.blcon_2{
+    display: flex;
+}
+.form{
+    align-self: center;
+
+}
+.form input{
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #78fff1;
+    border-radius: 2px;
+    padding: 15px 20px;
+    background: transparent;
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: #f8f7ff;
+    font-weight: 500;
+    font-weight: 800;
+    overflow: hidden;
+    width: 250px;
+    margin-right: 10px;
+}
+.form button{
+    width: 250px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #78fff1;
+    border-radius: 2px;
+    padding: 15px 20px;
+    background: #361999;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #f8f7ff;
+}
+.form button:hover{
+    background-color: #ff6495;
+    color: #f8f7ff;
+    cursor: pointer;
+}
+
+
+          /* Mobile Version */
+
+
+@media screen and (max-width: 1350px){
+    .hero_head h2{
+        font-size: 80px;
+    }
+    .sheadim img{
+        height: 224px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .sheadim div{
+        margin-bottom: 30px;
+    }
+    .blcon_1{
+        padding-left: 0px;
+    }
+    .type_3 h3{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 900px){
+    .head h1{
+        font-size: 70px;
+    }
+    .hero_head h2{
+        font-size: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .type_3 h3{
+        font-size: 30px;
+    }
+    .shead h1{
+        font-size: 80px;
+        line-height: 62px;
+        padding-top: 90px;
+    }
+    .shead h4{
+        font-size: 18px;
+        margin-top: 11px;
+    }
+    .sheadim{
+        margin-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .brief h3{
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .brief h4{
+        font-size: 13px;
+    }
+    .brjtext h3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 700px){
+    .hero_head h2{
+        font-size: 60px;
+    }
+    .brief h3{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .brief h4{
+        font-size: 12px;
+    }
+    .head h1{
+        font-size: 70px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .type{
+        height: 400px;
+    }
+    .type_000{
+        margin-bottom: 0px;
+    }
+    .type_1 h1{
+        margin-top: 30px;
+        font-size: 70px;
+    }
+    .type_1 h3{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .type_2 h1{
+        margin-top: 30px;
+        font-size: 70px;
+    }
+    .type_2 h3{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .type_3 h1{
+        margin-top: 30px;
+        font-size: 70px;
+    }
+    .type_3 h3{
+        margin-top: 5px;
+        font-size: 22px;
+        width: 210px;
+        height: 100%;
+    }
+    .type_4 h1{
+        margin-top: 30px;
+        font-size: 70px;
+    }
+    .type_4 h3{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .shead h1{
+        font-size: 70px;
+        padding-top: 50px;
+    }
+    .shead h4{
+        margin-top: 15px;
+    }
+    .sheadim{
+        margin-top: 35px;
+    }
+    .blcon_1 h3{
+        margin-top: 5px;
+    }
+    .form{
+        padding-top: 25px;
+    }
+}
+@media screen and (max-width: 460px){
+    .navigation li{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .brief{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .brief h3{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .brief h4{
+        font-size: 10px;
+    }
+    .brjtext h3{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .brief_2 h4{
+        font-size: 13px;
+    }
+    #get{
+        height: 200px;
+        padding-top: 35px;
+    }
+    .head h1{
+        text-align: center;
+        line-height: 80px;
+    }
+    .type{
+        height: 300px;
+    }
+    .shead h1{
+        margin-bottom: 15px;
+    }
+    .shead h4{
+        font-size: 15px;
+    }
+    .blcon_2{
+        justify-content: center;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px; 
+    }
+    .form input{
+        align-self: center;
+    }
+    .form button{
+        margin-top: 20px;
+        align-self: center;
+    }
+}
+@media screen and (max-width: 412px){
+    .brief{
+        margin-left: 0px;
+    }
+    .type{
+        width: 383.15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .type_3{
+        width: 191.567px;
+    }
+    .shead h1{
+        line-height: 74px;
+    }
+    .shead h4{
+        font-size: 12px;
+    } 
+}
